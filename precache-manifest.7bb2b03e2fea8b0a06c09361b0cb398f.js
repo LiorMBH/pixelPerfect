@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17d790d25698a3b020ef31b2f736d6c2",
+    "revision": "d0d62f42ae73759b7a5f24a437a976f4",
     "url": "/pixelPerfect/index.html"
   },
   {
-    "revision": "a0151be6862e3f27218a",
-    "url": "/pixelPerfect/static/css/main.e2bff5c6.chunk.css"
+    "revision": "2dbb915167395ae758cb",
+    "url": "/pixelPerfect/static/css/main.7d8a8ebf.chunk.css"
   },
   {
-    "revision": "9f54e175c0d2d1c4ed8e",
-    "url": "/pixelPerfect/static/js/2.dfaf9ca4.chunk.js"
+    "revision": "96bf14fea6a4b32bfbd0",
+    "url": "/pixelPerfect/static/js/2.df2a071b.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/pixelPerfect/static/js/2.dfaf9ca4.chunk.js.LICENSE.txt"
+    "url": "/pixelPerfect/static/js/2.df2a071b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0151be6862e3f27218a",
-    "url": "/pixelPerfect/static/js/main.1fa3c9bd.chunk.js"
+    "revision": "2dbb915167395ae758cb",
+    "url": "/pixelPerfect/static/js/main.7cf8b85e.chunk.js"
   },
   {
     "revision": "c2ea8103dd27b5375f68",
@@ -46,6 +46,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f16826cacf2b1a460d2eab969d343d0a",
     "url": "/pixelPerfect/static/media/avatar-kady.f16826ca.jpg"
+  },
+  {
+    "revision": "e45a3d0d8de698bfbea8ddc00225fd8e",
+    "url": "/pixelPerfect/static/media/bg-pattern-home-1.e45a3d0d.svg"
+  },
+  {
+    "revision": "2fd804c4ec4e139d392e43c599bd277b",
+    "url": "/pixelPerfect/static/media/bg-pattern-home-2.2fd804c4.svg"
+  },
+  {
+    "revision": "8fced9299fa222aa1131f36e3d689453",
+    "url": "/pixelPerfect/static/media/bg-pattern-home-3.8fced929.svg"
+  },
+  {
+    "revision": "fe4f785a6475f2ea47465eb9a6fcda38",
+    "url": "/pixelPerfect/static/media/bg-pattern-home-4-about-3.fe4f785a.svg"
+  },
+  {
+    "revision": "458c9fcdfef1f53beea9819bd3a2b4e8",
+    "url": "/pixelPerfect/static/media/bg-pattern-home-5.458c9fcd.svg"
+  },
+  {
+    "revision": "1f80fc3fb7d03dd4d7a60927c76a30f2",
+    "url": "/pixelPerfect/static/media/bg-pattern-home-6-about-5.1f80fc3f.svg"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -116,20 +140,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixelPerfect/static/media/icon-cog.6cb0f576.svg"
   },
   {
-    "revision": "7febcff9f143b83553d544fc04fc5b09",
-    "url": "/pixelPerfect/static/media/icon-facebook.7febcff9.svg"
-  },
-  {
     "revision": "05759150ed61077a65185636252594d7",
     "url": "/pixelPerfect/static/media/icon-person.05759150.svg"
   },
   {
-    "revision": "c557c3d4e80b5eda1ae120c8c2257e26",
-    "url": "/pixelPerfect/static/media/icon-pinterest.c557c3d4.svg"
-  },
-  {
-    "revision": "cb4fea0b4771a5dfc70f787d5e01c91e",
-    "url": "/pixelPerfect/static/media/icon-twitter.cb4fea0b.svg"
+    "revision": "efcf9a22216f31e99d42af206a8227a9",
+    "url": "/pixelPerfect/static/media/icon-quotes.efcf9a22.svg"
   },
   {
     "revision": "22c2459ee9b2f81c568b15fdfa3e84bf",
