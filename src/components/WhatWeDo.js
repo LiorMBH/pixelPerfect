@@ -5,9 +5,9 @@ import chartIcon from '../assets/img/layout/icon-chart.svg';
 
 export default function WhatWeDo() {
   return (
-    <div className='outer-component-container bkg-secondary-four'>
-      <div className='whatWeDo-container container flex'>
-        <div className='flex-basis-40'>
+    <div className='whatWeDo-outer-container'>
+      <div className='container flex'>
+        <div className='text-wrapper flex-basis-40'>
           <h2>Build & manage distributed teams like no one else.</h2>
         </div>
 

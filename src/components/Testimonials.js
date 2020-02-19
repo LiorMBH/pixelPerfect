@@ -5,8 +5,8 @@ import avatarArthur from '../assets/img/layout/avatar-arthur.jpg';
 
 export default function Testimonials() {
   return (
-    <div className='outer-component-container bkg-secondary-three'>
-      <div className='testimonials-container container flex column'>
+    <div className='testimonials-outer-container'>
+      <div className='container flex column'>
         <h2>
           Delivering real results for top companies. Some of our <span>success stories.</span>
         </h2>

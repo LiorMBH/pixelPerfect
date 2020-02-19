@@ -1,7 +1,7 @@
 import React from 'react';
 //import { Router, Switch, Route } from 'react-router';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import history from './history';
+//import history from './history';
 
 import Home from './pages/Home.js';
 import About from './pages/About.js';

@@ -1,24 +1,55 @@
-.outer-component-container {
+.hero-outer-container {
   padding-top: 130px;
-  padding-bottom: 130px;
-}
+  padding-bottom: 265px;
 
-.outer-component-container-small {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
+  background-image: url('../../img/layout/bg-pattern-home-1.svg'), url('../../img/layout/bg-pattern-home-2.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top rem(135px) left rem(-100px), bottom rem(0px) right rem(165px);
 
-.hero-container {
   & * span {
     color: $primary2;
   }
 
-  & * p {
-    text-align: justify;
+  .text-wrapper {
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 100%;
+      width: 50px;
+      height: 4px;
+      background-color: $secondary1;
+    }
+
+    & p {
+      text-align: justify;
+    }
   }
 }
 
-.whatWeDo-container {
+.whatWeDo-outer-container {
+  background-color: $secondary4;
+  padding-top: 200px;
+  padding-bottom: 140px;
+
+  background-image: url('../../img/layout/bg-pattern-home-3.svg');
+  background-repeat: no-repeat;
+  background-position: bottom rem(0px) right rem(-100px);
+
+  .text-wrapper {
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -15%;
+      width: 50px;
+      height: 4px;
+      background-color: $primary2;
+    }
+  }
+
   & * li {
     display: flex;
     margin-bottom: 35px;
@@ -41,7 +72,15 @@
   }
 }
 
-.testimonials-container {
+.testimonials-outer-container {
+  background-color: $secondary3;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+  background-image: url('../../img/layout/bg-pattern-home-4-about-3.svg'), url('../../img/layout/bg-pattern-home-5.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top rem(0px) left rem(0px), bottom rem(0px) right rem(0px);
+
   & h2 {
     margin-bottom: 100px;
     text-align: center;
@@ -57,6 +96,20 @@
 
     & > div:nth-child(1) {
       margin-bottom: 30px;
+
+      & p {
+        z-index: 2;
+        position: relative;
+      }
+    }
+    & > div:nth-child(1)::before {
+      height: 70px;
+      width: 70px;
+      content: '';
+      position: absolute;
+      background-image: url('../../img/layout/icon-quotes.svg');
+      background-repeat: no-repeat;
+      transform: translate(-50%, -50%);
     }
     & > div:nth-child(2) {
       color: $secondary1;
@@ -74,7 +127,15 @@
   }
 }
 
-.contact-us-container {
+.outer-contact-us-container {
+  background-color: $primary2;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+  background-image: url('../../img/layout/bg-pattern-home-6-about-5.svg');
+  background-repeat: no-repeat;
+  background-position: bottom rem(0px) left rem(0px);
+
   & h2 {
     color: $secondary4;
   }

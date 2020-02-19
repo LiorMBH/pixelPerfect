@@ -19,10 +19,10 @@
         color: $primary3;
         transition: color 0.3s ease;
         cursor: pointer;
-      }
 
-      & > ul > li > a:hover {
-        color: $primary2;
+        & a:hover {
+          fill: $primary2;
+        }
       }
     }
   }
@@ -31,16 +31,19 @@
     & > ul > li {
       margin-left: 15px;
 
-      img {
+      svg {
         width: 24px;
         height: 24px;
+        fill: $primary3;
       }
+
+      svg:hover {
+        fill: $primary2;
+      }
+    }
+
+    .small {
+      margin-bottom: 2rem;
     }
   }
 }
-
-.footer-container .small {
-  margin-bottom: 2rem;
-}
-
-//51
