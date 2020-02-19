@@ -1,0 +1,497 @@
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: lato-bold;
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: raleway;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: raleway-bold;
+  src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+/*===========================================
+=           SECTION  BASE            =
+=============================================*/
+
+/*
+#ffffff
+#1F2025
+#545559
+#5F6272
+#9599B1
+#8E8E90
+#BDC1CD
+#D4D4D6
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: none;
+  font-family: raleway, lato, 'sans-serif';
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #1F2025;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-family: raleway-bold, lato-bold, 'sans-serif';
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: raleway-bold, lato-bold, 'sans-serif';
+}
+
+p {
+  margin: 0 0 1.625rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hide {
+  display: none;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.show {
+  display: inline-block;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+/* **** BUTTONS **** */
+
+button {
+  font-family: raleway, lato, 'sans-serif';
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #545559;
+  border-radius: 2px;
+  font-size: 1rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.btn-main {
+  padding: 5px;
+  border: 1px solid #545559;
+  background-color: #545559;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-main:hover {
+  background-color: #BDC1CD;
+  color: #545559;
+}
+
+.btn-disabled {
+  color: silver;
+  background-color: #BDC1CD;
+}
+
+.btn-disabled:hover {
+  cursor: initial;
+}
+
+/* **** INPUT **** */
+
+select:focus, button:focus, div:focus {
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #545559;
+  background: rgba(#545559, 0.01);
+}
+
+input:focus:not(:focus-visible), textarea:focus:not(:focus-visible) {
+  outline: none;
+}
+
+input {
+  display: inline-block;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 1px solid #545559;
+  border-radius: 0.25rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-family: raleway, lato, 'sans-serif';
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: #545559;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin-bottom: 3px;
+}
+
+/* **** INPUT FORM**** */
+
+.input-form {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  border: 1px solid #BDC1CD;
+}
+
+.input-form::placeholder {
+  color: #BDC1CD;
+}
+
+/* **** TEXT AREA **** */
+
+textarea {
+  display: inline-block;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border: 1px solid #545559;
+  border-radius: 0.25rem;
+  vertical-align: top;
+  line-height: 2rem;
+  font-size: 1rem;
+  overflow: hidden;
+  resize: none;
+  font-family: raleway, lato, 'sans-serif';
+  cursor: pointer;
+}
+
+textarea::placeholder {
+  color: #545559;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+
+.textarea-form {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  border: 1px solid #BDC1CD;
+}
+
+.textarea-form::placeholder {
+  color: #BDC1CD;
+}
+
+.textarea:invalid {
+  border: 1px dashed red;
+}
+
+/* **** FONT-ICONS **** */
+
+.icon-small {
+  font-size: 0.7rem;
+  vertical-align: middle;
+  padding: 0px 3px 5px 0px;
+}
+
+.icon-medium {
+  font-size: 1rem;
+}
+
+.icon-large {
+  font-size: 1.5rem;
+}
+
+.icon-color {
+  color: #1F2025;
+}
+
+/*===========================================
+=           SECTION  LAYOUT
+=============================================*/
+
+.main-site-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  /* max-width: 1100px; */
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/*============================================
+=            SECTION  HEADER                 
+=============================================*/
+
+/*
+#ffffff
+#1F2025
+#545559
+#5F6272
+#9599B1
+#8E8E90
+#BDC1CD
+#D4D4D6
+
+#262626
+#3f3f3f 
+#f5f5f5
+#dcdcdc
+
+#111c30
+#2f3241
+#9a4d55
+#671f35
+#80756b
+#e2e8e6
+
+
+*/
+
+.main-header-container {
+  width: 100%;
+  /* height: 75px; */
+  margin-bottom: 30px;
+}
+
+.header-container {
+  height: 10px;
+  border-bottom: 1px solid #3f3f3f;
+  /* background-color: #e2e8e6; */
+}
+
+.header-logo {
+  font-size: 2.875rem;
+}
+
+.header-logo h1 {
+  height: 100%;
+  padding: 10px 40px;
+  margin: 10px;
+  color: #671f35;
+  /* background-color: #80756b; */
+  border: 1px solid #3f3f3f;
+  /* border-left: 1px solid #3f3f3f; */
+}
+
+.main-menu>*:not(:first-child) {
+  margin-left: 100px;
+}
+
+.main-menu a {
+  font-size: 1.3rem;
+  font-family: raleway-bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  border: 1px solid transparent;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.main-menu a:hover {
+  color: #545559;
+  border-bottom: 2px solid #545559;
+}
+
+/*============================================
+=            SECTION  
+=============================================*/
+
+/* **** MAIN **** */
+
+/* ****  SEARCH/FILTER **** */
+
+.controls-container {
+  margin: 35px;
+}
+
+.create-note-icon-wrapper {
+  margin-left: 20px;
+}
+
+/* ****  LIST  **** */
+
+/*============================================
+=       SECTION  GENERAL COMPONENTS
+=============================================*/
+
+/*============================================
+=            SECTION  FOOTER
+=============================================*/
+
+.footer-container {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  /* background-color: #e2e8e6; */
+  border-top: 1px solid #3f3f3f;
+  color: #3f3f3f;
+}
+
+.footer-container .small {
+  margin-bottom: 2rem;
+}
+
+/*============================================
+=            SECTION  HELPERS
+=============================================*/
+
+/* **** FLEX HELPERS **** */
+
+.flex {
+  display: flex;
+}
+
+.flex.column {
+  flex-direction: column;
+}
+
+.flex.row {
+  flex-direction: row;
+}
+
+.flex.wrap {
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-even {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.flex-basis-1 {
+  flex: 1;
+}
+
+.flex-basis-10 {
+  flex: 10%;
+}
+
+.flex-basis-20 {
+  flex: 20%;
+}
+
+.flex-basis-30 {
+  flex: 30%;
+}
+
+.flex-basis-25 {
+  flex: 25%;
+}
+
+.flex-basis-50 {
+  flex: 50%;
+}
+
+.flex-basis-60 {
+  flex: 60%;
+}
+
+.flex-basis-80 {
+  flex: 80%;
+}
+
+.flex-grow-30 {
+  flex: 1 0 30%;
+}
+
+.flex-30 {
+  flex: 0 0 30%;
+}
+
+.flex-40 {
+  flex: 0 0 40%;
+}
+
+.flex-70 {
+  flex: 0 0 70%;
+}
+
+.flex-2rem {
+  flex: 0 0 2rem;
+}
+
+/* **** MARGINS **** */
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+/* **** LIST HELPERS **** */
+
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* **** CARD **** */

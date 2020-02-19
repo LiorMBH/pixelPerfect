@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*Setup*/
+@import 'setup/variables.scss';
+@import 'setup/functions.scss';
+@import 'setup/mixins.scss';
+
+/*Basics*/
+@import 'basics/helpers.scss';
+@import 'basics/layout.scss';
+@import 'basics/base.scss';
+@import 'basics/link.scss';
+@import 'basics/typography.scss';
+@import 'basics/icon.scss';
+@import 'basics/input.scss';
+@import 'basics/button.scss';
+@import 'basics/site-helpers.scss';
+
+/*Components*/
+@import 'components/main-header.scss';
+@import 'components/main-footer.scss';
+@import 'components/card.scss';
+@import 'components/image-gallery.scss';
+@import 'components/search-bar.scss';
+@import 'components/componenets.scss';
+
+/* Views*/
+@import 'views/homepage.scss';

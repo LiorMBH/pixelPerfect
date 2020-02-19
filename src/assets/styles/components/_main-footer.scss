@@ -1,0 +1,46 @@
+.footer-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  & .site-controls {
+    img {
+      width: 160px;
+      height: 40px;
+      margin-bottom: 25px;
+    }
+
+    .main-nav {
+      & > ul > li:not(:first-child) {
+        margin-left: 20px;
+      }
+
+      & > ul > li > a {
+        font-family: $baseFontFamilyBold;
+        color: $primary3;
+        transition: color 0.3s ease;
+        cursor: pointer;
+      }
+
+      & > ul > li > a:hover {
+        color: $primary2;
+      }
+    }
+  }
+
+  .site-social-links {
+    & > ul > li {
+      margin-left: 15px;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
+
+.footer-container .small {
+  margin-bottom: 2rem;
+}
+
+//51

@@ -1,0 +1,52 @@
+.underline-link,
+.underline-link:visited {
+  font-family: $baseFontFamily;
+  text-decoration: none;
+  position: relative;
+  color: $clr4;
+
+  &:after {
+    content: '';
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background: $clr4;
+    transition: 0.2s easy;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+
+  &.block {
+    display: block;
+    padding: 0.5em;
+
+    &:hover {
+      background: $clr2;
+    }
+  }
+}
+
+.ellipse-link,
+.ellipse-link:visited {
+  font-family: $baseFontFamilyBold;
+  text-decoration: none;
+  height: fit-content;
+  padding: 0.5rem 0.812rem;
+  border-radius: 1.25rem;
+  background-color: $clr1;
+  color: $clr3;
+  // border: 1px solid $clr4;
+  // color: $clr4;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    // border: 1px solid $clr3;
+    background-color: $clr3;
+    color: $clr1;
+  }
+}

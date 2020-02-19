@@ -1,0 +1,146 @@
+/* **** BUTTONS **** */
+
+button {
+  font-family: $baseFontFamily;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid $clr4;
+  border-radius: 2px;
+  font-size: 1rem;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.btn-md {
+  width: 20%;
+}
+
+.btn-sm-md {
+  width: 45%;
+}
+
+.btn-lg {
+  width: 100%;
+}
+.btn-action {
+  background-color: $clr3;
+  color: $clr1;
+}
+
+.btn-main {
+  padding: 5px;
+  border: 1px solid $clr4;
+  background-color: $clr4;
+  color: $clr2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-main:hover {
+  background-color: $clr4;
+  color: $clr3;
+}
+
+.btn-main-color {
+  border: 1px solid $clr4;
+  background-color: $clr4;
+  color: $clr2;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-main-color {
+  background-color: $clr1;
+  color: $clr3;
+}
+
+.btn-secondary-color {
+  border: 1px solid $clr3;
+  background-color: $clr2;
+  color: $clr3;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  // padding: 5px;
+  padding: 2px 0px;
+  font-family: $baseFontFamilyBold;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+.btn-secondary-color:hover {
+  border: 1px solid rgba($clr2, 0.5);
+  background-color: rgba($clr3, 0.5);
+  color: $clr2;
+}
+
+.btn-round-primary-dark {
+  height: fit-content;
+  padding: 10px 35px;
+  border-radius: 24px;
+  border: 1px solid $primary1;
+  background: $primary1;
+  color: $primary3;
+  transition: all 0.3s ease-in-out;
+  line-height: 1.5;
+
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid $primary3;
+    background: $primary3;
+    color: $primary1;
+  }
+}
+
+.btn-round-primary-light {
+  height: fit-content;
+  padding: 10px 35px;
+  border-radius: 24px;
+  border: 2px solid $primary3;
+  background: $primary3;
+  color: $primary1;
+  line-height: 1.5;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $primary3;
+    background: $primary1;
+    color: $primary3;
+  }
+}
+
+.btn-round-secondary {
+  height: fit-content;
+  padding: 10px 35px;
+  border-radius: 24px;
+  border: 2px solid $primary1;
+  background: $primary3;
+  color: $primary1;
+  line-height: 1.5;
+
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid $secondary1;
+    background: $secondary1;
+  }
+}
+
+.btn-round-sm {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border: 1px solid $clr4;
+  background: $clr4;
+  color: $clr2;
+  cursor: pointer;
+
+  &:hover {
+    background: $clr2;
+    color: $clr4;
+  }
+}

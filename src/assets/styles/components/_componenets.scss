@@ -1,0 +1,81 @@
+.outer-component-container {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.outer-component-container-small {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.hero-container {
+  & * span {
+    color: $primary2;
+  }
+
+  & * p {
+    text-align: justify;
+  }
+}
+
+.whatWeDo-container {
+  & * li {
+    display: flex;
+    margin-bottom: 35px;
+
+    & .list-icon {
+      flex: 15%;
+      & img {
+        width: 72px;
+        height: auto;
+      }
+    }
+
+    & .list-content {
+      flex: 80%;
+      & h3 {
+        padding-bottom: 16px;
+        color: $primary2;
+      }
+    }
+  }
+}
+
+.testimonials-container {
+  & h2 {
+    margin-bottom: 100px;
+    text-align: center;
+
+    & span {
+      color: $secondary1;
+    }
+  }
+
+  & ul > li {
+    margin-right: 30px;
+    text-align: center;
+
+    & > div:nth-child(1) {
+      margin-bottom: 30px;
+    }
+    & > div:nth-child(2) {
+      color: $secondary1;
+    }
+    & > div:nth-child(3) {
+      margin-bottom: 30px;
+      font-size: rem(13px);
+    }
+
+    & img {
+      width: 62px;
+      border-radius: 50%;
+      border: 1px solid $secondary6;
+    }
+  }
+}
+
+.contact-us-container {
+  & h2 {
+    color: $secondary4;
+  }
+}

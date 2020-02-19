@@ -1,0 +1,21 @@
+.show-hide-text-container {
+  margin: 7px auto 50px;
+  text-align: center;
+
+  h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
+  & > p {
+    transition: all 0.2s;
+  }
+
+  & > p > a {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+}

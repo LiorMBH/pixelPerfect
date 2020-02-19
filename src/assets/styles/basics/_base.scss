@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+  min-height: 100vh;
+  font-family: $baseFontFamily;
+  color: $primary3;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: $primary1;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $baseFontFamilyBold;
+  font-size: 1rem;
+  margin-top: 0;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h1 {
+  font-size: rem(100px);
+  line-height: 0.875;
+}
+
+h1.small {
+  font-size: rem(64px);
+}
+
+h2 {
+  font-size: rem(48px);
+}
+
+h3 {
+  font-size: rem(18px);
+  line-height: 2;
+}
+
+p {
+  //margin: 0 0 rem(12px);
+  font-size: rem(15px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.cursor {
+  cursor: pointer;
+}
