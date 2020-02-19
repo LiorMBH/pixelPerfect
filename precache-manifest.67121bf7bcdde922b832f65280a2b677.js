@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f08c4621f664c60019756bce285c94c2",
+    "revision": "a6b5954c96971c72b2a34d48c74425aa",
     "url": "/LiorMBH/pixelPerfect/index.html"
   },
   {
-    "revision": "ee5b80d15512b1c4e336",
-    "url": "/LiorMBH/pixelPerfect/static/css/main.f4e798e1.chunk.css"
+    "revision": "9bcc71bb2cbe21285c76",
+    "url": "/LiorMBH/pixelPerfect/static/css/main.cfe2115e.chunk.css"
   },
   {
-    "revision": "691ab45c3fad875dcce7",
-    "url": "/LiorMBH/pixelPerfect/static/js/2.5627ec7d.chunk.js"
+    "revision": "c378a76710ccb20e5da1",
+    "url": "/LiorMBH/pixelPerfect/static/js/2.1fbc7eff.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/LiorMBH/pixelPerfect/static/js/2.5627ec7d.chunk.js.LICENSE.txt"
+    "url": "/LiorMBH/pixelPerfect/static/js/2.1fbc7eff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee5b80d15512b1c4e336",
-    "url": "/LiorMBH/pixelPerfect/static/js/main.5cd8e824.chunk.js"
+    "revision": "9bcc71bb2cbe21285c76",
+    "url": "/LiorMBH/pixelPerfect/static/js/main.b5934173.chunk.js"
   },
   {
     "revision": "d8692785e2d4dad8a140",
@@ -34,6 +34,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe84dbc6ce317e6216d959cf7baed69c",
     "url": "/LiorMBH/pixelPerfect/static/media/Livvic-SemiBold.fe84dbc6.ttf"
+  },
+  {
+    "revision": "d1d950e09ee94a2bbdd4627e65143cbc",
+    "url": "/LiorMBH/pixelPerfect/static/media/avatar-aiysha.d1d950e0.jpg"
+  },
+  {
+    "revision": "60ff8909e4d598e25c144f0b47d988e3",
+    "url": "/LiorMBH/pixelPerfect/static/media/avatar-arthur.60ff8909.jpg"
+  },
+  {
+    "revision": "f16826cacf2b1a460d2eab969d343d0a",
+    "url": "/LiorMBH/pixelPerfect/static/media/avatar-kady.f16826ca.jpg"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -96,8 +108,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LiorMBH/pixelPerfect/static/media/fa-solid-900.c2801fb4.svg"
   },
   {
+    "revision": "1ece178695707c353a82b30a19b11d2e",
+    "url": "/LiorMBH/pixelPerfect/static/media/icon-chart.1ece1786.svg"
+  },
+  {
+    "revision": "6cb0f5760e3e8a0f4567755fb5250b32",
+    "url": "/LiorMBH/pixelPerfect/static/media/icon-cog.6cb0f576.svg"
+  },
+  {
     "revision": "7febcff9f143b83553d544fc04fc5b09",
     "url": "/LiorMBH/pixelPerfect/static/media/icon-facebook.7febcff9.svg"
+  },
+  {
+    "revision": "05759150ed61077a65185636252594d7",
+    "url": "/LiorMBH/pixelPerfect/static/media/icon-person.05759150.svg"
   },
   {
     "revision": "c557c3d4e80b5eda1ae120c8c2257e26",

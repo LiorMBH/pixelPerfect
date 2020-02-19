@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/LiorMBH/pixelPerfect/static/css/main.f4e798e1.chunk.css",
-    "main.js": "/LiorMBH/pixelPerfect/static/js/main.5cd8e824.chunk.js",
-    "main.js.map": "/LiorMBH/pixelPerfect/static/js/main.5cd8e824.chunk.js.map",
+    "main.css": "/LiorMBH/pixelPerfect/static/css/main.cfe2115e.chunk.css",
+    "main.js": "/LiorMBH/pixelPerfect/static/js/main.b5934173.chunk.js",
+    "main.js.map": "/LiorMBH/pixelPerfect/static/js/main.b5934173.chunk.js.map",
     "runtime-main.js": "/LiorMBH/pixelPerfect/static/js/runtime-main.18ba01b7.js",
     "runtime-main.js.map": "/LiorMBH/pixelPerfect/static/js/runtime-main.18ba01b7.js.map",
-    "static/js/2.5627ec7d.chunk.js": "/LiorMBH/pixelPerfect/static/js/2.5627ec7d.chunk.js",
-    "static/js/2.5627ec7d.chunk.js.map": "/LiorMBH/pixelPerfect/static/js/2.5627ec7d.chunk.js.map",
+    "static/js/2.1fbc7eff.chunk.js": "/LiorMBH/pixelPerfect/static/js/2.1fbc7eff.chunk.js",
+    "static/js/2.1fbc7eff.chunk.js.map": "/LiorMBH/pixelPerfect/static/js/2.1fbc7eff.chunk.js.map",
     "index.html": "/LiorMBH/pixelPerfect/index.html",
-    "precache-manifest.26afbdf17d1f456366090a720c883863.js": "/LiorMBH/pixelPerfect/precache-manifest.26afbdf17d1f456366090a720c883863.js",
+    "precache-manifest.67121bf7bcdde922b832f65280a2b677.js": "/LiorMBH/pixelPerfect/precache-manifest.67121bf7bcdde922b832f65280a2b677.js",
     "service-worker.js": "/LiorMBH/pixelPerfect/service-worker.js",
-    "static/css/main.f4e798e1.chunk.css.map": "/LiorMBH/pixelPerfect/static/css/main.f4e798e1.chunk.css.map",
-    "static/js/2.5627ec7d.chunk.js.LICENSE.txt": "/LiorMBH/pixelPerfect/static/js/2.5627ec7d.chunk.js.LICENSE.txt",
+    "static/css/main.cfe2115e.chunk.css.map": "/LiorMBH/pixelPerfect/static/css/main.cfe2115e.chunk.css.map",
+    "static/js/2.1fbc7eff.chunk.js.LICENSE.txt": "/LiorMBH/pixelPerfect/static/js/2.1fbc7eff.chunk.js.LICENSE.txt",
     "static/media/global.scss": "/LiorMBH/pixelPerfect/static/media/Livvic-SemiBold.fe84dbc6.ttf",
+    "static/media/avatar-aiysha.jpg": "/LiorMBH/pixelPerfect/static/media/avatar-aiysha.d1d950e0.jpg",
+    "static/media/avatar-arthur.jpg": "/LiorMBH/pixelPerfect/static/media/avatar-arthur.60ff8909.jpg",
+    "static/media/avatar-kady.jpg": "/LiorMBH/pixelPerfect/static/media/avatar-kady.f16826ca.jpg",
     "static/media/all.min.css": "/LiorMBH/pixelPerfect/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/icon-chart.svg": "/LiorMBH/pixelPerfect/static/media/icon-chart.1ece1786.svg",
+    "static/media/icon-cog.svg": "/LiorMBH/pixelPerfect/static/media/icon-cog.6cb0f576.svg",
     "static/media/icon-facebook.svg": "/LiorMBH/pixelPerfect/static/media/icon-facebook.7febcff9.svg",
+    "static/media/icon-person.svg": "/LiorMBH/pixelPerfect/static/media/icon-person.05759150.svg",
     "static/media/icon-pinterest.svg": "/LiorMBH/pixelPerfect/static/media/icon-pinterest.c557c3d4.svg",
     "static/media/icon-twitter.svg": "/LiorMBH/pixelPerfect/static/media/icon-twitter.cb4fea0b.svg",
     "static/media/logo.svg": "/LiorMBH/pixelPerfect/static/media/logo.22c2459e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.18ba01b7.js",
-    "static/js/2.5627ec7d.chunk.js",
-    "static/css/main.f4e798e1.chunk.css",
-    "static/js/main.5cd8e824.chunk.js"
+    "static/js/2.1fbc7eff.chunk.js",
+    "static/css/main.cfe2115e.chunk.css",
+    "static/js/main.b5934173.chunk.js"
   ]
 }
